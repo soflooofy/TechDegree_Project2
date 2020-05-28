@@ -10,18 +10,19 @@
         <h1>Christine Hendrickson</h1>
         <nav class="main-nav">
             <ul>
-                <li>home</li>
-                <li>portfolio</li>
-                <li>contact</li>
+                <a href="#"><li>home</li></a>
+                <a href="#portfolio"><li>portfolio</li></a>
+                <a href="#contact"><li>contact</li></a>
             </ul>
         </nav>
     </header>
     <main>
         <section class="intro">
-            Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at <a href="https://teamtreehouse.com/" target="_blank" alt="A link to Team Treehouse">Treehouse</a> and am excited to put all my skills to use!
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at <a href="https://teamtreehouse.com/" target="_blank" alt="A link to Team Treehouse">Treehouse</a> and am excited to put all my skills to use!</p>
+            <img src="images/responsive-layout-profile.png" alt="Photo of Christine Hendrickson" class="profile-img">
         </section>
-        <section class="portfolio">
-            <h2 class="portfolio-title">portfolio</h2>
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio-title">Portfolio</h2>
             <img src="images/portfolio-1.png" alt="Marketing Image">
             <h3 class="subtitle">Marketing Page</h3>
             <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
@@ -41,12 +42,18 @@
             <h3 class="subtitle">Calculator</h3>
             <p>Users can enter in the numbers they want, and press the big blue button and get the result.</p>
         </section>
-        <aside class="contact">
-            <h2>contact</h2>
+        <aside class="contact" id="contact">
+            <h2>Contact</h2>
             <p>If you're interested in chatting, or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone <a href="tel:123-456-7890">123-456-7890</a></p>
             <p>Email <a href="mailto:info@flooofy.com">info@flooofy.com</a></p>
         </aside>
     </main>
+    <footer>
+        <div class="container">
+            <p>Christine Hendrickson</p>
+            <a href="#">Back top</a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,7 +1,95 @@
-/* 
-Text Formatting
-*/
+/*/////////////////////////
+    -- BASE STYLES --
+/////////////////////////*/
+
+* {
+    box-sizing: border-box;
+}
 
 .main-header {
     font-weight: bold;
+}
+
+body {
+    font-family: "Roboto Slab", "Open Sans";
+    background-color: lightgray;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+a:visited {
+    color: #2874A6;
+}
+
+a:hover {
+    color: #2E86C1;
+}
+
+img,
+.portfolio,
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.contact {
+    background-color: linen;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: linen;
+    margin: auto;
+    border-top: 1px solid lightgrey;
+}
+
+footer p {
+    text-align: left;
+    float: left;
+    margin: 0;
+}
+
+footer a {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*/////////////////////////
+   -- NAVIGATION STYLE --
+/////////////////////////*/
+
+.main-nav {
+    width: 100%;
+    margin: auto;
+}
+
+.main-nav li {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    background-color: linen;
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
 }

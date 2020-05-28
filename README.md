@@ -1,4 +1,5 @@
 # TechDegree_Project2
 Project 2
 
-Mobile First Approach
+Purpose:
+Build a web page from scratch, based off of mock-ups, with a mobile first approach.
